@@ -55,7 +55,7 @@ function Dropdown(props) {
     return (
         <div>
 
-            <div name="chapter" id="chapter" className='flex  relative'>
+            <div name="chapter" id="chapter" className='relative'>
                 <div onClick={() => { toggleDropwon() }} className='grid grid-cols-2 items-center gap-3 mr-[-50px]'>
                     <span >{props.language=== "English"? "chapter":"अध्याय"} </span>
                     <div >

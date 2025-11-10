@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 function HeroSection() {
 const {language} = useContext(languageContext)
+console.log("languageContext in HeroSection:", language);
 const navigate = useNavigate()
 
 const gotochapter = ()=>{

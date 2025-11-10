@@ -64,11 +64,11 @@ function Chapter() {
   if (!chapter) return <h1>Particular chapter Data not found</h1>;
 
   return (
-    <div className='w-[100%] flex justify-center items-baseline h-full '>
+    <div className=' flex justify- items-baseline h-full '>
       <div>
         <GrFormPrevious onClick={() => (prevChapter())} size={50} className='fixed cursor-pointer'/>
       </div>
-      <div className=" w-[71%] block mx-auto p-6 ">
+      <div className=" w-[80%]  mx-auto p-6 ">
         <div className=''>
           <div className='mt-[100px] mb-5'>
             <h3 className='text-orange-500 uppercase text-center text-2xl'>{language === "English" ? "Chapter" : "अध्याय"} {chapter.chapter_number}</h3>
